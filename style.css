@@ -108,9 +108,10 @@ svg {
         align-items: flex-start;
         width:auto;
     }
-    .cart> .row>.icon{
-        line-height: 1rem;        
-        margin: 5px;
+    .cart> .row>.icon{       
+        border-radius: 50% !important;
+        width: 25px !important;
+        height: 50% !important;
     }
     .cart>.row>.description{
         height: 95px !important;
