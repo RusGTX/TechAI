@@ -116,8 +116,8 @@ svg {
     flex-wrap: nowrap;
 }
 .cart> .row>.icon{
-    background: #223;
-    color: white;
+    background: #f1f1f1;
+    color: #000;
     border-radius: 50%;
     width: 50px;
     display: flex;
@@ -147,24 +147,24 @@ svg {
 .flip-container>input{
     display: none;
 }
-.flip-container>input:checked + label{
+input:checked + label{
     width: 600px;
 }
-.flip-container>input:checked + label .description{
+input:checked + label .description{
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
 .cart[for="c1"]{
-    background-image: url('/imgs/854.jpg');
+    background-image: url('./imgs/img5.jpg');
 }
 .cart[for="c2"]{
-    background-image: url('/imgs/864.jpg');
+    background-image: url('./imgs/874.jpg');
 }
 .cart[for="c3"]{
-    background-image: url('/imgs/874.jpg');
+    background-image: url('./imgs/img1.jpg');
 }
 .cart[for="c4"]{
-    background-image: url('/imgs/854.jpg');
+    background-image: url('./imgs/img2.jpg');
 }
 
 
