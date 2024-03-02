@@ -98,6 +98,24 @@ svg {
     flex-wrap: nowrap;
     justify-content: start;
 }
+
+@media(max-width:430px){
+    .flip-container{
+        justify-content:flex-start;
+        width: 85%;
+    }
+    .cart{
+        align-items: flex-start;
+        width:auto;
+    }
+    .cart> .row>.icon{
+        line-height: 1rem;        
+        margin: 5px;
+    }
+    .cart>.row>.description{
+        height: 95px !important;
+    }
+}
 .cart{
     width: 80px;
     background-size: cover;
@@ -212,5 +230,8 @@ input:checked + label .description{
 @media(max-width:430px){
     .info-right img{
        display: none !important;
+    }
+    .flip-wrapper{
+        display: flex !important;
     }
 }
